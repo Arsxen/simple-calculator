@@ -2,7 +2,10 @@
 
 Simple calculator app created by Rust, Dioxus, and Pico Css
 
-![image ui](./assets/ui.png)
+<p align="center">
+  <img src="./assets/ui.png" width="50%"/>
+</p>
+
 
 ### Serving App
 
