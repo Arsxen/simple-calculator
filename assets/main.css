@@ -1,0 +1,18 @@
+main {
+    padding: 18px;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 18px;
+    grid-row-gap: 0px;
+    overflow: hidden;
+}
+
+.number-panel {
+    grid-column: 1 / span 4;
+}
+
+.zero {
+    grid-column: 1 / span 2;
+}
