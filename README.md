@@ -1,10 +1,12 @@
-# Development
+# Simple Calculator
 
-Your new bare-bones project includes minimal organization with a single `main.rs` file and a few assets.
+Simple calculator app created by Rust, Dioxus, and Pico Css
 
-### Serving Your App
+![image ui](./assets/ui.png)
 
-Run the following command in the root of your project to start developing with the default platform:
+### Serving App
+
+Run the following command in the root of project to start developing with the desktop platform:
 
 ```bash
 dx serve
@@ -15,3 +17,10 @@ To run for a different platform, use the `--platform platform` flag. E.g.
 dx serve --platform desktop
 ```
 
+### Building App
+
+Run the following command in the root of project to build an app with the desktop platform:
+
+```bash
+dx bundle
+```
